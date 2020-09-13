@@ -45,15 +45,15 @@ client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
  
-  if (message.content.startsWith(admin + 'wt')) {
+  if (message.content.startsWith(prefix + 'wt')) {
   client.user.setActivity(argresult, {type:'WATCHING'});
       message.channel.send(` ☑ Client Activity Now Is : \`Watching ${argresult} \` `)
   } else 
-  if (message.content.startsWith(admin + 'ls')) {
+  if (message.content.startsWith(prefix + 'ls')) {
   client.user.setActivity(argresult , {type:'LISTENING'});
       message.channel.send(` ☑ Client Activity Now Is : \`Listening ${argresult} \` `)
   } else 
-  if (message.content.startsWith(admin + 'setstream')) {
+  if (message.content.startsWith(prefix + 'setstream')) {
     client.user.setGame(argresult, "https://www.twitch.tv/idk");
      message.channel.send(` ☑ Client Activity Now Is : \`Streaming ${argresult} \` `)
   }
