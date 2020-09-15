@@ -151,7 +151,7 @@ const developers = "الايدي بتاعك هنا"
 
 
 **رابط شرح كيفيه عمل البوت على قناتي في اليوتيوب**
-https://www.youtube.com/channel/UC_MsQabWHZKBXh4TvZenyTw
+https://youtu.be/_ikLmvEU5rE
 
          
 `)
